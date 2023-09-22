@@ -1,0 +1,123 @@
+/* Reset default padding and margin for all elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background color for the entire page */
+body {
+    background-color: rgb(227, 189, 51);
+}
+
+/* Style the main container */
+.main {
+    position: relative;
+    background-color: whitesmoke;
+    height: 50vh;
+    width: 50vw;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border: 5px solid rgb(114, 111, 255);
+    border-radius: 20px;
+}
+
+/* Style the long URL input */
+#longurl {
+    position: relative;
+    top: 30%;
+    left: 20%;
+    height: 40px;
+    width: 296px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+/* Style the shorten button */
+#shorten {
+    position: relative;
+    top: 30%;
+    left: 20%;
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    background-color:  rgb(46, 212, 115);
+    cursor: pointer; /* Add a pointer cursor for better user experience */
+    /* Add a transition for smooth hover effect */
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect for the shorten button */
+#shorten:hover {
+    background-color: skyblue;
+}
+
+/* Style the short URL display */
+#shorturl {
+    position: relative;
+    top: 35%;
+    left: 20%;
+    height: 40px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 47px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+/* Style the copy button */
+#copy {
+    position: relative;
+    top: 36%;
+    left: 20%;
+    height: 35px;
+    width: 35px;
+    border: 2px solid black;
+    border-radius: 50%; /* Make the copy button round */
+    color: white;
+    background-color: rgb(46, 212, 115);
+    cursor: pointer; /* Add a pointer cursor for better user experience */
+    /* Add a transition for smooth hover effect */
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect for the copy button */
+#copy:hover {
+    background-color: skyblue;
+}
+
+/* Style paragraphs within the main container */
+.main p {
+    position: relative;
+    top: 20%;
+    left: 13%;
+    height: 60px;
+    width: 400px;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(46, 212, 115);
+}
+
+.main .fillimages{
+    /* font-size: 15vw; */
+    text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMhyoMEBRj4Wz3_fC3iMAIbGTpN1ENKe8KxgeijgyTGuRjxGjEAA3h6JyBaK1bbLW3HGk&usqp=CAU);
+    -webkit-background-clip: text ;
+    color: transparent;
+
+}
